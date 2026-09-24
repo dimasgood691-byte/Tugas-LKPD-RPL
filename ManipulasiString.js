@@ -37,5 +37,5 @@ function processPhoneNumber(rawPhone) {
 
 // --- PENGUJIAN ---
 console.log(cleanNama('  bUDI sANtosO  ')); // Output: Budi Santoso
-console.log(extractDomain('user.test@techmart.co.id')); // Output: techmart.co.id
+console.log(extractDomain('user.test@rplmart.co.id')); // Output: techmart.co.id
 console.log(processPhoneNumber('+62 812-9876-5432')); // Output: { clean: '6281298765432', masked: '6281****5432' }
